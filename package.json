@@ -1,0 +1,26 @@
+{
+  "name": "ejerciciosjs",
+  "version": "1.0.0",
+  "description": "Tarea ejercicios javaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node, /index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaal99/ejerciciosjs.git"
+  },
+  "keywords": [
+    "tarea",
+    "ejercicios",
+    "javascript",
+    "handlebars"
+  ],
+  "author": "Jassiel Aldana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaal99/ejerciciosjs/issues"
+  },
+  "homepage": "https://github.com/jaal99/ejerciciosjs#readme"
+}
