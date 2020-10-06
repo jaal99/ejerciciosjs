@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/jaal99/ejerciciosjs/issues"
   },
-  "homepage": "https://github.com/jaal99/ejerciciosjs#readme"
+  "homepage": "https://github.com/jaal99/ejerciciosjs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
