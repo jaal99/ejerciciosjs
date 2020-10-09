@@ -6,7 +6,7 @@ const exphbs = require("express-handlebars");
 const bodyParser = require("body-parser");
 
 // Importar la función de cálculo de método francés
-const { calcularMetodoFrances } = require("./calculoMetodoFrances");
+//const { calcularMetodoFrances } = require("./calculoMetodoFrances");
 const { Ejercicio01 } = require("./Ejercicio01");
 const { Ejercicio02 } = require("./Ejercicio02");
 const { Ejercicio03 } = require("./Ejercicio03");
@@ -31,9 +31,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // https://developer.mozilla.org/es/docs/Web/HTTP/Methods
 
 //amortizacion
-app.get("/", (req, res, next) => {
+/*app.get("/", (req, res, next) => {
     res.render("formulario_prestamo");
-  });
+  });*/
 
 //01
 app.get("/Ejercicio01", (req, res, next) => {
@@ -70,7 +70,7 @@ app.get("/Ejercicio07", (req, res, next) => {
     res.render("Ejercicio07");
     });
 
-app.post("/prestamo", (req, res, next) => {
+/*app.post("/prestamo", (req, res, next) => {
   // Asignación por destructuring
   // https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Destructuring_assignment
   const { monto, tasaInteres, periodo } = req.body;
@@ -78,7 +78,7 @@ app.post("/prestamo", (req, res, next) => {
   const cuotas = calcularMetodoFrances(monto, tasaInteres, periodo);
 
   res.render("resultado_prestamo", { cuotas });
-});
+});*/
 
 //01
 app.post("/dividirnumero", (req, res, next) => {
